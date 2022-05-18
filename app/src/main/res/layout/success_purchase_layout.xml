@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="24dp"
+    android:layout_width="match_parent"
+    android:background="@color/grayNobel"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/text_success_purchase"
+        android:textColor="@color/blueHarmony"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_check_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msg"
+        app:tint="@color/blueHarmony"
+        android:contentDescription="@string/app_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

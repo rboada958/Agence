@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="24dp"
+    android:layout_width="match_parent"
+    android:background="@color/grayNobel"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/confirm_purchase"
+        android:textColor="@color/blueHarmony"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_cancel"
+        android:layout_marginTop="32dp"
+        android:paddingVertical="12dp"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:background="@drawable/background_ripple"
+        app:layout_constraintEnd_toStartOf="@+id/accept"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+    <TextView
+        android:id="@+id/accept"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_ripple"
+        android:paddingVertical="12dp"
+        android:textAlignment="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/text_accept"
+        android:textColor="@color/blueHarmony"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cancel"
+        app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

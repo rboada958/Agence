@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TestAgence</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_product">My Products</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="text_welcome">Welcome to App Agence</string>
+    <string name="text_user">Email or username</string>
+    <string name="text_password">Password</string>
+    <string name="text_password_example">********</string>
+    <string name="text_login">Login</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_account_facebook">Login with Facebook</string>
+    <string name="text_account_google">Login with Google</string>
+    <string name="text_or">Or</string>
+    <string name="text_buy">Buy</string>
+    <string name="confirm_purchase">Do you want to confirm the purchase?</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_accept">Accept</string>
+    <string name="text_success_purchase">Success purchase!</string>
+
+    <string name="facebook_app_id">1017087022272754</string>
+    <string name="facebook_client_token">fd27c1a2a3cf0bfda10bc749a2a8bd98</string>
+
+</resources>
