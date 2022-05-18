@@ -27,5 +27,6 @@
 
     <string name="facebook_app_id">1017087022272754</string>
     <string name="facebook_client_token">fd27c1a2a3cf0bfda10bc749a2a8bd98</string>
+    <string name="text_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suspendisse orci eget lacus ipsum. Feugiat dolor, varius nisl ornare at sapien dignissim. Non eget vitae in sed convallis.</string>
 
 </resources>

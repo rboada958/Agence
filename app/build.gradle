@@ -90,4 +90,7 @@ dependencies {
 
     // Google
     implementation 'com.google.android.gms:play-services-auth:20.2.0'
+
+    // Rounded imageview
+    implementation 'com.makeramen:roundedimageview:2.3.0'
 }

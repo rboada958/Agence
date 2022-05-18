@@ -5,6 +5,8 @@ import com.app.appagence.ui.home.HomeRepository
 import com.app.appagence.ui.home.HomeRepositoryImpl
 import com.app.appagence.ui.login.LoginRepository
 import com.app.appagence.ui.login.LoginRepositoryImpl
+import com.app.appagence.ui.profile.ProfileRepository
+import com.app.appagence.ui.profile.ProfileRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,5 +23,9 @@ class RepositoriesModule {
     @Provides
     fun providesHomeRepository(localDataStore: LocalDataStore): HomeRepository =
         HomeRepositoryImpl(localDataStore)
+
+    @Provides
+    fun providesProfileRepository(localDataStore: LocalDataStore): ProfileRepository =
+        ProfileRepositoryImpl(localDataStore)
 
 }
