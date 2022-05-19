@@ -103,8 +103,10 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
                         .requestLocationUpdates(locationRequest!!, object : LocationCallback() {
                             override fun onLocationResult(locationResult: LocationResult) {
                                 super.onLocationResult(locationResult)
-                                LocationServices.getFusedLocationProviderClient(requireContext())
-                                    .removeLocationUpdates(this)
+                                context?.let {
+                                    LocationServices.getFusedLocationProviderClient(it)
+                                        .removeLocationUpdates(this)
+                                }
                                 if (locationResult.locations.size > 0) {
                                     val index = locationResult.locations.size - 1
                                     latitude = locationResult.locations[index].latitude
